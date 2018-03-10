@@ -158,7 +158,7 @@ body {
 .container {
     margin-left: auto;
     margin-right: auto;
-}
+}F
 
 .container.\31 25\25 {
     width: 100%;
@@ -192,10 +192,8 @@ body {
     display: flex;
     flex-direction: row;
     /*    justify-content: center; */
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
-
-
 }
 
 .tim {
@@ -1617,11 +1615,10 @@ input[type="submit"],
 input[type="reset"],
 button,
 .dugme {
+    margin: 0 30px 30px 30px;
+    text-align: center;
     display: flex;
     justify-content: center;
-    padding: 10px;
-    margin-bottom: 40px;
-    margin-top: 5px;
 
 }
 
@@ -1662,7 +1659,7 @@ button,
 }
 
 .zakon {
-    margin-top: -20px;
+/*    margin-top: -20px;*/
     margin-bottom: 20px;
 }
 

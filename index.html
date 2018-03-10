@@ -6,6 +6,19 @@
 -->
 <html>
 	<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-115141866-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-115141866-1');
+    </script>
+
     <title>Obuka iz prve pomoći</title>
     <link rel="shortcut icon" href="http://example.com/myicon.ico">
     <meta charset="utf-8" />
@@ -57,15 +70,16 @@
 
                     <!-- Feature 1 -->
                     <section class="container box feature1">
-                        <div class="row infoDugme">
-                            <div class="row btn zakon">
+                        
+                        <div class="infoDugme">
+                            <div class="btn zakon">
                                 <a href="./Obave%C5%A1tenje%20o%20osposobljavanju.pdf" class="button medium icon zakon-dugme">Zakon o radu</a>
                             </div>
-                            <div class="row btn zakon">
+                            <div class="btn zakon">
                                 <a href="http://www.pravno-informacioni-sistem.rs/SlGlasnikPortal/reg/viewAct/5f50663d-58f0-406b-8d2b-a932cf2df6a8" class="button medium icon zakon-dugme">Pravilnik</a>
                             </div>
-
                         </div>
+                        
                     </section>
 
                 </div>
@@ -103,7 +117,7 @@
                     </section>
                 </div>
             </div>
-            <div class="row dugme velicina">
+            <div class="dugme velicina">
                 <a href="#" class="button big icon fa-arrow-circle-right dugme">Zakaži obuku</a>
             </div>
             <section class="tim">
@@ -130,7 +144,7 @@
                         <div class="4u 12u(mobile)">
                             <section>
                                 <!--                                <a href="#" class="image featured"><img src="images/pic03.jpg" alt="" /></a>-->
-<!--
+                                <!--
                                 <header class="second icon fa-bar-chart-o">
                                     <h3>Bezbednost na prvom mestu</h3>
                                     <p>Do sada smo obuku za prvu pomoč uradili u više firmi širom Srbije</p>
